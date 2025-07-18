@@ -37,7 +37,7 @@ const HeroSection = () => {
           <CustomButton
             linkClassName="w-full md:w-fit"
             className="py-7 px-10 md:px-16 md:text-xl w-full mb-4 md:mb-0"
-            link="tel:8932882554"
+            link="tel:8960973119"
           >
             Book a Call
           </CustomButton>
@@ -53,7 +53,7 @@ const HeroSection = () => {
           </CustomButton>
           <CustomButton
             target="_blank"
-            link="https://chat.whatsapp.com/L9pZ3hgRPTI7E5gJohO1gt"
+            link="https://wa.me/918960973119"
             className="py-7 px-10 md:px-7 mb-4 md:mb-0"
           >
             <FaWhatsapp />
