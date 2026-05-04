@@ -65,13 +65,10 @@ export const features = [
 
 export const creatorProfile = [
   {
-    name: "Sahil Kumar Dev",
-    img: "https://n1edx68t7x.ufs.sh/f/dXpVSNsUdw3Tc7ds6yE5C5nbIX20vAP1yq48dJ6ZM9Do3l7j",
+    name: "Abdelhadi",
+    img: "https://abdelhadi-portfolio.netlify.app/assets/img/abdelhadi.png",
   },
-  {
-    name: "Abhishek Goswami",
-    img: "https://n1edx68t7x.ufs.sh/f/dXpVSNsUdw3T1QgLwiYa5ZIFBA8fxPrJs4nT3kLMOydmEcbl",
-  },
+
 ];
 
 export const creationTopic = [
@@ -81,97 +78,55 @@ export const creationTopic = [
 ];
 
 export const works = [
-  {
-    title: "Shadwui Library",
-    link: "https://shadwui.com",
-    description: "Elements UI components for seamless web and app development.",
-    imageUrl:
-      "https://n1edx68t7x.ufs.sh/f/dXpVSNsUdw3TeCRGdKVRAdsutCk5bZpmXjPrF7oalghHBxey",
+    {
+    title: "Plantex Website",
+    link: "https://abdelhadi-demo-2.netlify.app/",
+    description: "A clean and modern plant e-commerce landing page built with HTML, CSS, JavaScript, and SCSS. Focused on UI clarity and responsive design.",
+    imageUrl: "/projects/plantex.png",
+    tech: ["HTML", "CSS", "JavaScript", "SCSS"],
     createrDetails: creatorProfile[0],
     value: creationTopic[2].topic,
-  },
-  {
-    title: "Portfolio Website",
-    link: "https://sahilkumardev.netlify.app",
-    description: "A modern and responsive personal portfolio website.",
-    imageUrl:
-      "https://n1edx68t7x.ufs.sh/f/dXpVSNsUdw3TId0yXJcDqBoGeQfNSj1y5aUX4OK9YIptVPzi",
-    createrDetails: creatorProfile[0],
-    value: creationTopic[2].topic,
-  },
-  {
-    title: "Zee Movies Hub",
-    link: "https://zeemoviehub.netlify.app",
-    description: "A dynamic movie streaming and discovery platform for free.",
-    imageUrl:
-      "https://n1edx68t7x.ufs.sh/f/dXpVSNsUdw3Td4PEADUdw3Ta97jsz6MFqlQWroSODZCbpJ8x",
-    createrDetails: creatorProfile[0],
-    value: creationTopic[2].topic,
-  },
-  {
-    title: "Case Cobra",
-    link: "https://casecobracase.vercel.app/",
+    type: "Frontend",
+  },  {
+    title: "Rasa E-commerce",
+    link: "https://abdelhadi-demo-3.netlify.app/",
     description:
-      "Customizable iPhone covers with unique designs and quality materials.",
-    imageUrl:
-      "https://n1edx68t7x.ufs.sh/f/dXpVSNsUdw3TWeESe5tJn4fHXxORSu5DbeojzswKtd13yFTE",
-    createrDetails: creatorProfile[0],
-    value: creationTopic[2].topic,
-  },
-  {
-    title: "Portfolio Website",
-    link: "https://sahilkumardev.vercel.app/",
-    description: "A sleek and professional personal branding platform.",
-    imageUrl:
-      "https://n1edx68t7x.ufs.sh/f/dXpVSNsUdw3TfVmU8gxJlUBTxoKNjdRwC7LA3DHVrqEPeinv",
-    createrDetails: creatorProfile[0],
-    value: creationTopic[2].topic,
-  },
-  {
-    title: "Zee Movies Hub Dashboard",
-    link: "https://zeemovieshubdashboard.netlify.app",
-    description: "An intuitive admin dashboard for managing movie content.",
-    imageUrl:
-      "https://n1edx68t7x.ufs.sh/f/dXpVSNsUdw3TyAqRFVQS3TJBHpDwZ2cklubYN1GKI4Efi7nt",
-    createrDetails: creatorProfile[0],
-    value: creationTopic[2].topic,
+      "Minimalist fashion e-commerce UI with product grids, promotions, and clean layout built using HTML, CSS, JS, and SCSS.",
+    imageUrl: "/data/rasa.png",
+    tech: ["HTML", "CSS", "JavaScript", "SCSS"],
+    type: "Frontend",
+  },  {
+    title: "Electric Car Landing",
+    link: "https://abdelhadi-demo-4.netlify.app/",
+    description:
+      "High-end dark UI landing page for electric cars with smooth animations and modern layout.",
+    imageUrl: "/data/car.png",
+    tech: ["HTML", "CSS", "JavaScript"],
+    type: "Frontend",
+  },   {
+    title: "Beats 3 Product Landing",
+    link: "https://abdelhadi-demo-1.netlify.app/",
+    description:
+      "A sleek dark-mode product landing page showcasing Beats 3 headphones with immersive visuals, smooth transitions, and modern UI design focused on product experience.",
+    imageUrl: "/data/beats.png",
+    tech: ["HTML", "CSS", "JavaScript"],
+    type: "Frontend",
+  }, {
+    title: "Kosta Tours Platform",
+    link: "https://kosta-ebon.vercel.app/",
+    description:
+      "Full-stack booking platform for airport transfers with dynamic forms, API handling, and modern UI components.",
+    imageUrl: "/data/kosta.png",
+    tech: ["Next.js", "Node.js", "Express", "MongoDB", "shadcn/ui"],
+    type: "Full Stack",
   },
 
-  {
-    title: "Invitation Design",
-    link: "",
-    description:
-      "A captivating banner design for a digital marketing campaign.",
-    imageUrl: "/data/1.svg",
-    createrDetails: creatorProfile[1],
-    value: creationTopic[0].topic,
-  },
-  {
-    title: "Invitation Design",
-    link: "",
-    description:
-      "A captivating banner design for a digital marketing campaign.",
-    imageUrl: "/data/2.svg",
-    createrDetails: creatorProfile[1],
-    value: creationTopic[0].topic,
-  },
-  {
-    title: "Invitation Design",
-    link: "",
-    description:
-      "A captivating banner design for a digital marketing campaign.",
-    imageUrl: "/data/3.svg",
-    createrDetails: creatorProfile[1],
-    value: creationTopic[0].topic,
-  },
-  {
-    title: "Video Thumbnail",
-    link: "",
-    description: "A captivating video thumbnail for a YouTube channel.",
-    imageUrl: "/data/video-thumb.svg",
-    createrDetails: creatorProfile[1],
-    value: creationTopic[1].topic,
-  },
+  
+ 
+
+
+
+  
 ];
 
 export const testimonials = [
