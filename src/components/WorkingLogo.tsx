@@ -30,7 +30,7 @@ const WorkingLogo = () => {
     name: "PHP",
   },
   {
-    logo: "/tools/javascript.svg",
+    logo: "/tools/js.svg",
     name: "JavaScript",
   },
   {
