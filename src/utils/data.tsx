@@ -82,7 +82,7 @@ export const works = [
     title: "Plantex Website",
     link: "https://abdelhadi-demo-2.netlify.app/",
     description: "A clean and modern plant e-commerce landing page built with HTML, CSS, JavaScript, and SCSS. Focused on UI clarity and responsive design.",
-    imageUrl: "/projects/plantex.png",
+    imageUrl: "/data/plantex.png",
     tech: ["HTML", "CSS", "JavaScript", "SCSS"],
     createrDetails: creatorProfile[0],
     value: creationTopic[2].topic,
