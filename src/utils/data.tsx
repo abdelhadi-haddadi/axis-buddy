@@ -2,42 +2,26 @@ import { FaCode, FaStopwatch, FaTools } from "react-icons/fa";
 
 export const services = [
   {
-    icon: "https://n1edx68t7x.ufs.sh/f/dXpVSNsUdw3T6Q7Hj10F3i5EKgaZfklhxoT7pYUjVycDdP2e",
-    title: "UI Design",
+    title: "SaaS Development",
     description:
-      "Craft visually stunning and user-friendly interfaces for your digital products with our UI design services.",
+      "We build scalable SaaS applications from idea to production using modern technologies, optimized for performance and growth.",
+
+    icon :"/data/saas.png",
   },
   {
-    icon: "https://n1edx68t7x.ufs.sh/f/dXpVSNsUdw3TQ4lkqEIPvWxodpetk7MAU2Y64L0nbHimhwFJ",
-    title: "UX Design",
+    title: "High-Converting Landing Pages",
     description:
-      "Enhance user satisfaction by improving usability and accessibility through our UX design services.",
+      "We design and develop landing pages focused on conversion, helping you turn visitors into customers.",
+   icon :"/data/lan.png",
   },
   {
-    icon: "https://n1edx68t7x.ufs.sh/f/dXpVSNsUdw3TfCvbh57xJlUBTxoKNjdRwC7LA3DHVrqEPein",
-    title: "Web Development",
+    title: "Automation Systems",
     description:
-      "Bring your ideas to life with our top-notch web development services tailored to your business needs.",
-  },
-  {
-    icon: "https://n1edx68t7x.ufs.sh/f/dXpVSNsUdw3TnlcGIRbF1kYxjJELTtgXZWh9miKUpGfMORAy",
-    title: "Graphic Design",
-    description:
-      "Elevate your brand with eye-catching visuals created through our professional graphic design services.",
-  },
-  {
-    icon: "https://n1edx68t7x.ufs.sh/f/dXpVSNsUdw3TYvmY1x2ztbx9CFSVajsW0upreEoGcmR7dvH5",
-    title: "Logo Design",
-    description:
-      "Create a memorable brand identity with a unique and impactful logo designed just for you.",
-  },
-  {
-    icon: "https://n1edx68t7x.ufs.sh/f/dXpVSNsUdw3TM2gu6OTgIBdjvy3btomulL6as7eT40nOF9Nf",
-    title: "Video Editing",
-    description:
-      "Engage your audience with high-quality videos edited to perfection with our video editing services.",
+      "We create custom automation tools that save time, reduce manual work, and improve your business efficiency.",
+   icon :"/data/auto.png",
   },
 ];
+
 
 export const features = [
   {
