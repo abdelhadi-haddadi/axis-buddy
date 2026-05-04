@@ -94,6 +94,8 @@ export const works = [
       "Minimalist fashion e-commerce UI with product grids, promotions, and clean layout built using HTML, CSS, JS, and SCSS.",
     imageUrl: "/data/rasa.png",
     tech: ["HTML", "CSS", "JavaScript", "SCSS"],
+    createrDetails: creatorProfile[0],
+    value: creationTopic[2].topic,
     type: "Frontend",
   },  {
     title: "Electric Car Landing",
@@ -102,6 +104,8 @@ export const works = [
       "High-end dark UI landing page for electric cars with smooth animations and modern layout.",
     imageUrl: "/data/car.png",
     tech: ["HTML", "CSS", "JavaScript"],
+    createrDetails: creatorProfile[0],
+    value: creationTopic[2].topic,
     type: "Frontend",
   },   {
     title: "Beats 3 Product Landing",
@@ -110,6 +114,8 @@ export const works = [
       "A sleek dark-mode product landing page showcasing Beats 3 headphones with immersive visuals, smooth transitions, and modern UI design focused on product experience.",
     imageUrl: "/data/beats.png",
     tech: ["HTML", "CSS", "JavaScript"],
+    createrDetails: creatorProfile[0],
+    value: creationTopic[2].topic,
     type: "Frontend",
   }, {
     title: "Kosta Tours Platform",
@@ -118,8 +124,12 @@ export const works = [
       "Full-stack booking platform for airport transfers with dynamic forms, API handling, and modern UI components.",
     imageUrl: "/data/kosta.png",
     tech: ["Next.js", "Node.js", "Express", "MongoDB", "shadcn/ui"],
+
+          createrDetails: creatorProfile[0],
+    value: creationTopic[2].topic,
     type: "Full Stack",
   },
+
 
   
  
