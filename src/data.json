@@ -1,0 +1,29 @@
+{
+  "hero": {
+    "titlePrefix": "Build scalable products with",
+    "brandName": "QAEngine",
+    "subtitle": "Fullstack development & automation testing agency. Get high-performance apps and reliable systems built for scale.",
+    "buttons": {
+      "linkedin": {
+        "url": "https://www.linkedin.com/in/abdelhadihaddadi",
+        "icon": "FaLinkedin",
+        "ariaLabel": "LinkedIn"
+      },
+      "bookCall": {
+        "url": "tel:+212626812944",
+        "text": "Book a Call"
+      },
+      "showcase": {
+        "url": "/showcase",
+        "text": "Our Work"
+      },
+      "whatsapp": {
+        "url": "https://wa.me/212626812944",
+        "icon": "FaWhatsapp",
+        "ariaLabel": "WhatsApp"
+      }
+    },
+    "services": ["Fullstack Development", "QA Automation", "SaaS", "Web Apps"],
+    "scrambleCharacterSet": "QWERTYUIOPASDFGHJKLZXCVBNM"
+  }
+}
