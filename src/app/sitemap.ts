@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const url = "https://www.axisbuddy.com";
+  const url = "https://www.qaengine.dev";
   return [
     {
       url: `${url}`,
