@@ -5,7 +5,7 @@ import { TheamToggler } from "@/components/TheamToggler";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { usePathname } from "next/navigation";
-import villanCreation from "/public/E7B6kH301.svg";
+import villanCreation from "/public/logo.png";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
