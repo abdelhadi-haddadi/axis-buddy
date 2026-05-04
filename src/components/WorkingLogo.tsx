@@ -25,7 +25,66 @@ const WorkingLogo = () => {
     {
       logo: "/tools/filmora.svg",
       name: "Filmora",
-    },
+    },  {
+    logo: "/tools/php.svg",
+    name: "PHP",
+  },
+  {
+    logo: "/tools/javascript.svg",
+    name: "JavaScript",
+  },
+  {
+    logo: "/tools/typescript.svg",
+    name: "TypeScript",
+  },
+  {
+    logo: "/tools/laravel.svg",
+    name: "Laravel",
+  },
+  {
+    logo: "/tools/react.svg",
+    name: "React",
+  },
+  {
+    logo: "/tools/nextjs.svg",
+    name: "Next.js",
+  },
+  {
+    logo: "/tools/express.svg",
+    name: "Express.js",
+  },
+  {
+    logo: "/tools/mysql.svg",
+    name: "MySQL",
+  },
+  {
+    logo: "/tools/mongodb.svg",
+    name: "MongoDB",
+  },
+  {
+    logo: "/tools/puppeteer.svg",
+    name: "Puppeteer",
+  },
+  {
+    logo: "/tools/jest.svg",
+    name: "Jest",
+  },
+  {
+    logo: "/tools/docker.svg",
+    name: "Docker",
+  },
+  {
+    logo: "/tools/git.svg",
+    name: "Git",
+  },
+  {
+    logo: "/tools/linux.svg",
+    name: "Linux",
+  },
+  {
+    logo: "/tools/api.svg",
+    name: "REST APIs",
+  },
   ];
 
   return (
