@@ -5,7 +5,7 @@ import CustomButton from "./_components/CustomButton";
 import ServiceItem from "./_components/ServiceCard";
 import { Cover } from "./ui/cover";
 import { TextScramble } from "./ui/text-scramble";
-import heroData from "@/data.json"; // adjust the path to your actual data.json location
+import heroData from "@/data/me.json"; // adjust the path to your actual data.json location
 
 // TypeScript interface (optional but recommended)
 interface HeroData {
