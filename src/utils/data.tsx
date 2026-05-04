@@ -142,42 +142,11 @@ export const works = [
 export const testimonials = [
   {
     imageUrl:
-      "https://n1edx68t7x.ufs.sh/f/dXpVSNsUdw3Ti3jrmoKBW7NJO4PUGA2FfEH13S5YxdlDTng8",
-    name: "Abhishek Singh",
-    title: "Business Manager",
-    quote:
-      "Axis Buddy is a trusted partner for innovative design. They consistently deliver top-notch quality that drives results.",
-  },
-  {
-    imageUrl:
-      "https://n1edx68t7x.ufs.sh/f/dXpVSNsUdw3Tc7ds6yE5C5nbIX20vAP1yq48dJ6ZM9Do3l7j",
-    name: "Sahil Kumar Dev",
-    title: "Founder & CEO",
-    quote:
-      "As the founder, I value creativity and innovation. Axis Buddy's designs have elevated our projects and impressed our clients every time.",
-  },
-  {
-    imageUrl:
-      "https://n1edx68t7x.ufs.sh/f/dXpVSNsUdw3T1QgLwiYa5ZIFBA8fxPrJs4nT3kLMOydmEcbl",
-    name: "Abhishek Goswami",
-    title: "Video Editor",
-    quote:
-      "Axis Buddy's video editing services are unmatched. Their attention to detail and creativity have helped us create engaging content.",
-  },
-  {
-    imageUrl:
-      "https://n1edx68t7x.ufs.sh/f/dXpVSNsUdw3TbmBlTtZQJcufwkS2nzjTmqgD7Bi3x6IyaArV",
-    name: "Riya Verma",
-    title: "Product Manager",
-    quote:
-      "Managing products requires attention to detail, and Axis Buddy's solutions streamline our workflow and exceed expectations.",
-  },
-  {
-    imageUrl:
-      "https://n1edx68t7x.ufs.sh/f/dXpVSNsUdw3TtaOiZOrpdA5EUkeXqzFu4JZbfr8gonK7iG0c",
-    name: "Arjun Singh",
-    title: "Client",
-    quote:
-      "Working with Axis Buddy has been a game-changer. Their designs perfectly align with our brand's vision and goals.",
-  },
+      "https://media.licdn.com/dms/image/v2/C4D03AQFh3lNs_1-DwA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1635689682568?e=2147483647&v=beta&t=xIXd_CecF_jCLgx0SmwLu4xxL4kOxs01t8pkPUnlNLU",
+  name: "Oubay Edrisi",
+  title: "WEB Developer",
+  quote:
+    "Working with Abdelhadi was a great experience. His ability to transform ideas into clean, modern, and high-performing interfaces truly adds value to any project.",
+}
+
 ];
