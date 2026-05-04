@@ -124,7 +124,6 @@ const Header = () => {
               <CustomButton
                 link="/meeting"
                 className="w-full justify-center text-base py-5 px-4 mt-2"
-                onClick={() => setMobileMenuOpen(false)}
               >
                 Book a Call
               </CustomButton>
