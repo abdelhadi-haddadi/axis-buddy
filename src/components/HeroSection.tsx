@@ -26,38 +26,51 @@ interface HeroData {
 
 const { hero } = heroData as HeroData;
 
-// Button configuration for cleaner rendering
-const primaryButtons = [
+// Define a type for button configuration
+type ButtonConfig = {
+  key: string;
+  link: string;
+  variant: "outline" | "default";
+  className: string;
+  children?: React.ReactNode;
+  icon?: React.ReactNode;
+  target?: string;
+  ariaLabel?: string;
+  linkClassName?: string;
+};
+
+const primaryButtons: ButtonConfig[] = [
   {
     key: "linkedin",
     link: hero.buttons.linkedin.url,
     icon: <FaLinkedin size={28} />,
-    variant: "outline" as const,
+    variant: "outline",
     className: "py-7 px-10 md:px-7",
     ariaLabel: hero.buttons.linkedin.ariaLabel,
+    target: "_blank",
   },
   {
     key: "bookCall",
     link: hero.buttons.bookCall.url,
     children: hero.buttons.bookCall.text,
-    variant: "default" as const,
+    variant: "default",
     className: "py-7 px-10 md:px-16 md:text-xl w-full md:w-auto",
   },
 ];
 
-const secondaryButtons = [
+const secondaryButtons: ButtonConfig[] = [
   {
     key: "showcase",
     link: hero.buttons.showcase.url,
     children: hero.buttons.showcase.text,
-    variant: "outline" as const,
+    variant: "outline",
     className: "py-7 px-10 md:px-16 md:text-xl w-full",
   },
   {
     key: "whatsapp",
     link: hero.buttons.whatsapp.url,
     icon: <FaWhatsapp size={28} />,
-    variant: "default" as const,
+    variant: "default",
     className: "py-7 px-10 md:px-7",
     ariaLabel: hero.buttons.whatsapp.ariaLabel,
     target: "_blank",
